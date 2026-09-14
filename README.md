@@ -8,19 +8,26 @@
 | 송승재 | 역할 | ![GitHub](https://img.shields.io/badge/GitHub-f2f2f2?style=flat-square&logo=github&logoColor=181717) |
 | 이성민 | 역할 | ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)|
 | 홍지윤 | 역할 | ![GitHub](https://img.shields.io/badge/GitHub-e8e8e8?style=for-the-badge&logo=github&logoColor=24292e) |
+<br>
+<br>
+<br>
 
 
 ## 프로젝트 개요(차별화 전략)
 정부지원사업 검색부터 신청 준비와 기업 간 협업까지 돕는 AI 웹 서비스입니다.
 기업마당·K-Startup 등 공식 공고를 기반으로 지원사업 추천, 원문 근거 확인, 신청 정보 정리와 협업 모집·제안을 지원합니다.
-
+<br>
+<br>
+<br>
 ### 차별화 전략
 - **AI 대화 검색**: 키워드가 아니라 회사 상황을 대화로 설명하면 조건을 반영해 추천
 - **원문 근거 인용**: 추천 이유·자격 여부를 공식 공고 원문의 실제 문장으로 인용해 신뢰도 확보
 - **중복 지원·수혜 검토**: 이미 받은 지원과 겹치는 공고인지 자동 분석
 - **파트너 모집**: 공고 단위로 협업 파트너를 모집·제안할 수 있는 기능까지 포함
 
-
+<br>
+<br>
+<br>
 ## 🛠️기술스택
 > Frontend
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
@@ -56,10 +63,9 @@
 - Bizno 사업자등록번호 조회 API
 - OpenAI (gpt-5.6-luna 기본, 랭킹은 gpt-5.6-sol, 임베딩은 text-embedding-3-small)
 
-
-
-
--------
+<br>
+<br>
+<br>
 
 ## 🛠 기술스택
 
@@ -127,7 +133,9 @@ Qdrant 1.17.1 (의미 검색 벡터)
 공공데이터포털 기업마당 API · Bizno 사업자등록번호 조회 API · OpenAI (gpt-5.6-luna · 랭킹 gpt-5.6-sol · 임베딩 text-embedding-3-small)
 
 </div>
-
+<br>
+<br>
+<br>
 
 
 ## 🛠 기술스택
@@ -140,7 +148,9 @@ Qdrant 1.17.1 (의미 검색 벡터)
 | **데이터·인프라** | <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/rabbitmq-%23FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white" height="20"/><br/>Qdrant 1.17.1 (의미 검색 벡터) |
 | **외부 API** | 공공데이터포털 기업마당 API · Bizno 사업자등록번호 조회 API · OpenAI (gpt-5.6-luna · 랭킹 gpt-5.6-sol · 임베딩 text-embedding-3-small) |
 
-
+<br>
+<br>
+<br>
 
 
 ## 🔎인덱싱 단계
@@ -167,7 +177,9 @@ flowchart TD
 
 두 색인이 모두 준비된 뒤에만 해당 제공처가 검색 가능해집니다.
 수집·색인에 실패하면 기존 공개 카탈로그를 유지하고 다음 스케줄에서 재시도합니다.
-
+<br>
+<br>
+<br>
 
 ## 🖥️화면설계 (간단하게) **UI 시안/UX Flow**
 ### 01 지원사업 검색 · `/app/chat`
@@ -200,6 +212,9 @@ flowchart LR
 | A | 조건이 모호함 | 질문으로 되돌아감 — 확인 전에는 검색하지 않음 |
 | B | 결과 0건 | 전체 공고로 범위 확대를 **제안** (자동 실행 아님) |
 | C | 429 · 504 | 입력을 보존하고 수동 재시도 버튼만 제공 |
-
+<br>
+<br>
+<br>
    
 ## 한 줄 회고
+
