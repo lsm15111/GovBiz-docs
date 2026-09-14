@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="330" viewBox="0 0 760 330" role="img" aria-labelledby="t d">
+  <title id="t">키워드 후보 검색 품질 Nori v1 → v2</title>
+  <desc id="d">질문 300개 기준 목표 공고 Hit@1 258→268, Hit@5 292→295, Hit@20 295→299, MRR@20 0.906→0.934</desc>
+  <style>
+    text { font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+    .title { font-size: 15px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .axis { font-size: 11px; fill: #6b7280; }
+    .cat { font-size: 13px; font-weight: 600; fill: #374151; }
+    .val { font-size: 12px; font-weight: 600; fill: #374151; }
+    .val-new { font-size: 12px; font-weight: 700; fill: #0f766e; }
+    .legend { font-size: 12px; fill: #374151; }
+    .delta { font-size: 11px; font-weight: 700; fill: #0f766e; }
+    .kpi-l { font-size: 11px; fill: #6b7280; letter-spacing: 0.04em; }
+    .kpi-v { font-size: 22px; font-weight: 700; fill: #0f766e; }
+    .kpi-o { font-size: 13px; fill: #9ca3af; }
+  </style>
+  <rect x="0.5" y="0.5" width="759" height="329" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <text class="title" x="24" y="32">키워드 후보 검색 · Nori 분석기 v1 → v2</text>
+  <text class="sub" x="24" y="52">질문 300개 · 고정 스냅샷 1,422건(2026-09-06) · 모델 API 호출 0회 · 목표 공고가 상위 k 안에 든 질문 수</text>
+
+  <!-- grid: y from 0 to 300 mapped to y=275..95 (180px) -->
+  <g class="axis">
+    <line x1="60" y1="275" x2="500" y2="275" stroke="#d1d5db"/>
+    <line x1="60" y1="215" x2="500" y2="215" stroke="#eef2f7"/>
+    <line x1="60" y1="155" x2="500" y2="155" stroke="#eef2f7"/>
+    <line x1="60" y1="95"  x2="500" y2="95"  stroke="#eef2f7"/>
+    <text x="52" y="279" text-anchor="end">0</text>
+    <text x="52" y="219" text-anchor="end">100</text>
+    <text x="52" y="159" text-anchor="end">200</text>
+    <text x="52" y="99"  text-anchor="end">300</text>
+  </g>
+
+  <!-- Hit@1: 258 -> h=154.8 (y=120.2); 268 -> h=160.8 (y=114.2) -->
+  <g>
+    <rect x="92"  y="120.2" width="44" height="154.8" fill="#cbd5e1"/>
+    <rect x="142" y="114.2" width="44" height="160.8" fill="#0f766e"/>
+    <text class="val" x="114" y="112" text-anchor="middle">258</text>
+    <text class="val-new" x="164" y="106" text-anchor="middle">268</text>
+    <text class="cat" x="139" y="297" text-anchor="middle">Hit@1</text>
+    <text class="delta" x="139" y="313" text-anchor="middle">+10</text>
+  </g>
+  <!-- Hit@5: 292 -> h=175.2 (y=99.8); 295 -> h=177 (y=98) -->
+  <g>
+    <rect x="240" y="99.8" width="44" height="175.2" fill="#cbd5e1"/>
+    <rect x="290" y="98"   width="44" height="177"   fill="#0f766e"/>
+    <text class="val" x="262" y="92" text-anchor="middle">292</text>
+    <text class="val-new" x="312" y="90" text-anchor="middle">295</text>
+    <text class="cat" x="287" y="297" text-anchor="middle">Hit@5</text>
+    <text class="delta" x="287" y="313" text-anchor="middle">+3</text>
+  </g>
+  <!-- Hit@20: 295 -> h=177 (y=98); 299 -> h=179.4 (y=95.6) -->
+  <g>
+    <rect x="388" y="98"   width="44" height="177"   fill="#cbd5e1"/>
+    <rect x="438" y="95.6" width="44" height="179.4" fill="#0f766e"/>
+    <text class="val" x="410" y="90" text-anchor="middle">295</text>
+    <text class="val-new" x="460" y="88" text-anchor="middle">299</text>
+    <text class="cat" x="435" y="297" text-anchor="middle">Hit@20</text>
+    <text class="delta" x="435" y="313" text-anchor="middle">+4</text>
+  </g>
+
+  <!-- legend -->
+  <g class="legend">
+    <rect x="60" y="66" width="12" height="12" fill="#cbd5e1"/>
+    <text x="78" y="77">v1 · decompound mixed</text>
+    <rect x="230" y="66" width="12" height="12" fill="#0f766e"/>
+    <text x="248" y="77">v2 · discard + 사용자 사전 + 검색 시점 동의어</text>
+  </g>
+
+  <!-- KPI panel -->
+  <g>
+    <rect x="540" y="95" width="196" height="180" rx="6" fill="#f0fdfa" stroke="#99f6e4"/>
+    <text class="kpi-l" x="560" y="124">MRR@20</text>
+    <text class="kpi-o" x="560" y="152">0.906</text>
+    <text class="kpi-v" x="612" y="153">→ 0.934</text>
+    <text class="kpi-l" x="560" y="188">Hit@1 비율</text>
+    <text class="kpi-o" x="560" y="216">86.0%</text>
+    <text class="kpi-v" x="620" y="217">→ 89.3%</text>
+    <text class="sub" x="560" y="248">누락 5개 중 4개 회복</text>
+    <text class="sub" x="560" y="264">순위 하락 9개도 기록</text>
+  </g>
+</svg>

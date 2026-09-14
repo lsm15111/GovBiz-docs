@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="250" viewBox="0 0 760 250" role="img" aria-labelledby="t d">
+  <title id="t">AI 검색 한 번의 소요 시간 구성</title>
+  <desc id="d">첫 검색 42.467초 중 LLM 랭킹 37.236초, 질의 임베딩 3.645초, 벡터 검색 0.233초, 기타 1.353초. 같은 검색의 캐시 적중 응답은 0.484초</desc>
+  <style>
+    text { font-family: "Pretendard", "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", system-ui, sans-serif; font-variant-numeric: tabular-nums; }
+    .title { font-size: 15px; font-weight: 700; fill: #1f2937; }
+    .sub { font-size: 12px; fill: #6b7280; }
+    .row { font-size: 13px; font-weight: 600; fill: #374151; }
+    .seg { font-size: 11px; font-weight: 600; fill: #ffffff; }
+    .seg-dark { font-size: 11px; font-weight: 600; fill: #374151; }
+    .total { font-size: 14px; font-weight: 700; fill: #1f2937; }
+    .note { font-size: 12px; fill: #b45309; font-weight: 600; }
+    .legend { font-size: 11px; fill: #6b7280; }
+  </style>
+  <rect x="0.5" y="0.5" width="759" height="249" rx="8" fill="#ffffff" stroke="#e5e7eb"/>
+
+  <text class="title" x="24" y="32">AI 검색 한 번은 어디에 시간을 쓰나</text>
+  <text class="sub" x="24" y="52">같은 검색문을 두 번 보낸 실측(2026-09-08, Sol · 추론 low · 일반 처리) · 1초 = 12px</text>
+
+  <!-- Row 1: first search 42.467s → 509.6px starting x=170 -->
+  <text class="row" x="24" y="112">첫 검색</text>
+  <text class="sub" x="24" y="130">임베딩·랭킹 모두 호출</text>
+  <!-- embedding 3.645s = 43.7px -->
+  <rect x="170" y="94" width="43.7" height="30" fill="#0f766e"/>
+  <!-- vector 0.233s = 2.8px -->
+  <rect x="213.7" y="94" width="2.8" height="30" fill="#14b8a6"/>
+  <!-- LLM ranking 37.236s = 446.8px -->
+  <rect x="216.5" y="94" width="446.8" height="30" fill="#c2410c"/>
+  <!-- other 1.353s = 16.2px -->
+  <rect x="663.3" y="94" width="16.2" height="30" fill="#d6d3d1"/>
+  <text class="seg" x="191.8" y="113" text-anchor="middle">3.6s</text>
+  <text class="seg" x="439.9" y="113" text-anchor="middle">LLM 랭킹 37.2초 · 전체의 88%</text>
+  <text class="total" x="688" y="113">42.5초</text>
+
+  <!-- Row 2: cache hit 0.484s = 5.8px -->
+  <text class="row" x="24" y="176">같은 검색 다시</text>
+  <text class="sub" x="24" y="194">정확 일치 캐시 적중</text>
+  <rect x="170" y="158" width="5.8" height="30" fill="#0f766e"/>
+  <text class="total" x="184" y="177">0.48초</text>
+  <text class="note" x="256" y="177">응답 내용 동일 · 88배 빠름</text>
+
+  <!-- legend -->
+  <g class="legend">
+    <rect x="170" y="218" width="10" height="10" fill="#0f766e"/><text x="185" y="227">질의 임베딩</text>
+    <rect x="262" y="218" width="10" height="10" fill="#14b8a6"/><text x="277" y="227">Qdrant 벡터 검색 0.2초</text>
+    <rect x="410" y="218" width="10" height="10" fill="#c2410c"/><text x="425" y="227">LLM 랭킹(후보 20개 점수화)</text>
+    <rect x="590" y="218" width="10" height="10" fill="#d6d3d1"/><text x="605" y="227">조건 해석·기타 1.4초</text>
+  </g>
+</svg>
