@@ -7,23 +7,23 @@
 <table>
   <tr>
     <td align="center">
-      <a href="https://github.com/free.rjs102">
-        <img src="https://github.com/free.rjs102.png" width="120" height="120" style="border-radius:50%;"/>
+      <a href="https://github.com/ilil1">
+        <img src="https://github.com/ilil1.png" width="120" height="120" style="border-radius:50%;"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/kds20001026">
-        <img src="https://github.com/GITHUB_ID_2.png" width="120" height="120" style="border-radius:50%;"/>
+      <a href="https://github.com/kimdongseop">
+        <img src="https://github.com/kimdongseop.png" width="120" height="120" style="border-radius:50%;"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/lsm151111">
-        <img src="https://github.com/lsm151111.png" width="120" height="120" style="border-radius:50%;"/>
+      <a href="https://github.com/sungmin">
+        <img src="https://github.com/sungmin.png" width="120" height="120" style="border-radius:50%;"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/thd0103006">
-        <img src="https://github.com/thd0103006.png" width="120" height="120" style="border-radius:50%;"/>
+      <a href="https://github.com/Genus-Jae">
+        <img src="https://github.com/Genus-Jae.png" width="120" height="120" style="border-radius:50%;"/>
       </a>
     </td>
     <td align="center">
@@ -48,28 +48,28 @@
   </tr>
   <tr>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_1">
-        <img src="https://img.shields.io/badge/GITHUB__ID__1-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <a href="https://github.com/ilil1">
+        <img src="https://img.shields.io/badge/ilil1-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_2">
-        <img src="https://img.shields.io/badge/GITHUB__ID__2-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <a href="https://github.com/kimdongseop">
+        <img src="https://img.shields.io/badge/kimdongseop-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_3">
-        <img src="https://img.shields.io/badge/GITHUB__ID__3-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <a href="https://github.com/sungmin">
+        <img src="https://img.shields.io/badge/sungmin-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_4">
-        <img src="https://img.shields.io/badge/GITHUB__ID__4-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <a href="https://github.com/Genus-Jae">
+        <img src="https://img.shields.io/badge/Genus-Jae-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td align="center">
-      <a href="https://github.com/GITHUB_ID_5">
-        <img src="https://img.shields.io/badge/GITHUB__ID__5-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      <a href="https://github.com/JiYoon241111">
+        <img src="https://img.shields.io/badge/JiYoon241111-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
   </tr>
