@@ -1,6 +1,81 @@
 # GovBiz-docs
 
 # 1. 팀 소개
+
+## 👥 팀원 소개
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/free.rjs102">
+        <img src="https://github.com/free.rjs102.png" width="120" height="120" style="border-radius:50%;"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/kds20001026">
+        <img src="https://github.com/GITHUB_ID_2.png" width="120" height="120" style="border-radius:50%;"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/lsm151111">
+        <img src="https://github.com/lsm151111.png" width="120" height="120" style="border-radius:50%;"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/thd0103006">
+        <img src="https://github.com/thd0103006.png" width="120" height="120" style="border-radius:50%;"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/JiYoon241111">
+        <img src="https://github.com/JiYoon241111.png" width="120" height="120" style="border-radius:50%;"/>
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <td align="center"><b>김건우</b></td>
+    <td align="center"><b>김동섭</b></td>
+    <td align="center"><b>송승재</b></td>
+    <td align="center"><b>이성민</b></td>
+    <td align="center"><b>홍지윤</b></td>
+  </tr>
+  <tr>
+    <td align="center">역할 입력</td>
+    <td align="center">역할 입력</td>
+    <td align="center">역할 입력</td>
+    <td align="center">역할 입력</td>
+    <td align="center">역할 입력</td>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://github.com/GITHUB_ID_1">
+        <img src="https://img.shields.io/badge/GITHUB__ID__1-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GITHUB_ID_2">
+        <img src="https://img.shields.io/badge/GITHUB__ID__2-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GITHUB_ID_3">
+        <img src="https://img.shields.io/badge/GITHUB__ID__3-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GITHUB_ID_4">
+        <img src="https://img.shields.io/badge/GITHUB__ID__4-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/GITHUB_ID_5">
+        <img src="https://img.shields.io/badge/GITHUB__ID__5-181717?style=for-the-badge&logo=github&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
 | 이름 | 역할 | GitHub |
 |--- | --- | --- |
 | 김건우 | 역할 | ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) |
