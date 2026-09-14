@@ -152,7 +152,37 @@ Qdrant 1.17.1 (의미 검색 벡터)
    → MySQL 카탈로그를 하나의 트랜잭션으로 공개
 
 
-## 화면설계 (간단하게) **UI 시안/UX Flow**
+## 🖥️화면설계 (간단하게) **UI 시안/UX Flow**
+### 01 지원사업 검색 · `/app/chat`
+
+```mermaid
+flowchart LR
+    A["한 줄 입력<br/>기업 상황을 문장으로"] --> B["조건 확인 카드<br/>해석 40초"]
+    B -->|확인| C["추천 0~5건<br/>검색 90초"]
+    B -->|조건 모호| B2["질문으로 되돌아감"]
+    B2 --> B
+    C -->|결과 있음| D["공고 상세<br/>상세 10초"]
+    C -->|결과 0건| C2["전체 공고로 범위 확대 제안"]
+    D --> E1["관심 공고함에 담기"]
+    D --> E2["원문 질문<br/>70초"]
+    D --> E3["신청 문서 작성"]
+    C -.->|429 · 504| X["입력 보존 · 수동 재시도"]
+
+    classDef step fill:#e7f6ed,stroke:#087f46,color:#202124
+    classDef done fill:#202124,stroke:#202124,color:#ffffff
+    classDef branch fill:#fffaf0,stroke:#e0b357,color:#202124
+    classDef error fill:#fff5f6,stroke:#c9636f,color:#202124
+    class A,B,C step
+    class D,E1,E2,E3 done
+    class B2,C2 branch
+    class X error
+```
+
+| 분기 | 조건 | 동작 |
+|---|---|---|
+| A | 조건이 모호함 | 질문으로 되돌아감 — 확인 전에는 검색하지 않음 |
+| B | 결과 0건 | 전체 공고로 범위 확대를 **제안** (자동 실행 아님) |
+| C | 429 · 504 | 입력을 보존하고 수동 재시도 버튼만 제공 |
 
    
 ## 한 줄 회고
