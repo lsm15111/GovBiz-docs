@@ -61,40 +61,51 @@ GovBiz는 정부지원사업을 찾는 것에서 끝나지 않고, 기업에 맞
 <br>
 <br>
 <br>
-## 🛠️기술스택
-> Frontend
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
-![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
-![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)
-![Redux](https://img.shields.io/badge/redux-%23593d88.svg?style=for-the-badge&logo=redux&logoColor=white)
-![Zod](https://img.shields.io/badge/zod-%233068b7.svg?style=for-the-badge&logo=zod&logoColor=white)
-![NodeJS](https://img.shields.io/badge/node.js-%236DA55F.svg?style=for-the-badge&logo=node.js&logoColor=white)
+## 🛠️ 기술 스택
 
-> Backend (Core API)
-![Kotlin](https://img.shields.io/badge/kotlin-%237F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)
-![Spring](https://img.shields.io/badge/spring-%236DB33F.svg?style=for-the-badge&logo=spring&logoColor=white)
-- MyBatis 4.0.0, Flyway (스키마 버전 관리)
-- jsoup 1.23.2 (원문 파싱)
-- spring-security-crypto (BCrypt 비밀번호 해시)
+### Frontend
 
-> AI Service
-![Python](https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54)
-![FastAPI](https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)
-![OpenAI](https://img.shields.io/badge/openai-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white)
-- OpenAI SDK 3.x, Agents SDK 0.22.x, tiktoken
+[![React](https://img.shields.io/badge/React-2023A.svg?style=for-the-badge&logo=react&logoColor=61DAFB)](https://react.dev/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![Vite](https://img.shields.io/badge/Vite-646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)](https://vitejs.dev/)
+[![TailwindCSS](https://img.shields.io/badge/TailwindCSS-38B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Redux](https://img.shields.io/badge/Redux-593D88.svg?style=for-the-badge&logo=redux&logoColor=white)](https://redux.js.org/)
+[![Zod](https://img.shields.io/badge/Zod-3068B7.svg?style=for-the-badge&logo=zod&logoColor=white)](https://zod.dev/)
+[![Node.js](https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white)](https://nodejs.org/)
 
-> 데이터·인프라
-![MySQL](https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
-![ElasticSearch](https://img.shields.io/badge/elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)
-![Redis](https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white)
-![RabbitMQ](https://img.shields.io/badge/Rabbitmq-%23FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white)
-- Qdrant 1.17.1 (의미 검색 벡터)
+### Backend — Core API
 
-> 외부 API
+[![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF.svg?style=for-the-badge&logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F.svg?style=for-the-badge&logo=springboot&logoColor=white)](https://spring.io/projects/spring-boot)
+
+- MyBatis 4.0.0
+- Flyway
+- jsoup 1.23.2
+- Spring Security Crypto — BCrypt
+
+### AI Service
+
+[![Python](https://img.shields.io/badge/Python-3776AB.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![FastAPI](https://img.shields.io/badge/FastAPI-009688.svg?style=for-the-badge&logo=fastapi&logoColor=white)](https://fastapi.tiangolo.com/)
+[![OpenAI](https://img.shields.io/badge/OpenAI-412991.svg?style=for-the-badge&logo=openai&logoColor=white)](https://openai.com/)
+
+- OpenAI SDK 3.x
+- Agents SDK 0.22.x
+- tiktoken
+
+### Data & Infrastructure
+
+[![MySQL](https://img.shields.io/badge/MySQL-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)](https://www.mysql.com/)
+[![Redis](https://img.shields.io/badge/Redis-DC382D.svg?style=for-the-badge&logo=redis&logoColor=white)](https://redis.io/)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://www.rabbitmq.com/)
+[![Elasticsearch](https://img.shields.io/badge/Elasticsearch-005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white)](https://www.elastic.co/elasticsearch/)
+[![Qdrant](https://img.shields.io/badge/Qdrant-DC244C.svg?style=for-the-badge&logoColor=white)](https://qdrant.tech/)
+
+### External APIs
+
 - 공공데이터포털 기업마당 API
 - Bizno 사업자등록번호 조회 API
-- OpenAI (gpt-5.6-luna 기본, 랭킹은 gpt-5.6-sol, 임베딩은 text-embedding-3-small)
+- OpenAI API
 
 <br>
 <br>
