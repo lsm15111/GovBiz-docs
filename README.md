@@ -144,12 +144,29 @@ Qdrant 1.17.1 (의미 검색 벡터)
 
 
 ## 🔎인덱싱 단계
-동기화 세대 발급
-   → 기업마당 전체 페이지 수집·검증
-   → Elasticsearch 키워드 색인 (Nori 형태소 분석)
-   → Qdrant 벡터 준비 (OpenAI 임베딩)
-   → 최신 시작 세대인지 확인
-   → MySQL 카탈로그를 하나의 트랜잭션으로 공개
+### 공고 인덱싱 단계
+
+```mermaid
+flowchart TD
+    A["동기화 세대 발급"] --> B["기업마당 전체 페이지 수집·검증"]
+    B --> C["Elasticsearch 키워드 색인<br/>Nori 형태소 분석"]
+    C --> D["Qdrant 벡터 준비<br/>OpenAI 임베딩"]
+    D --> E{"최신 시작 세대인가?"}
+    E -->|예| F["MySQL 카탈로그 공개<br/>단일 트랜잭션"]
+    E -->|아니오| G["공개하지 않고 종료<br/>이전 실행의 늦은 덮어쓰기 방지"]
+
+    classDef step fill:#e7f6ed,stroke:#087f46,color:#202124
+    classDef gate fill:#fffaf0,stroke:#e0b357,color:#202124
+    classDef done fill:#202124,stroke:#202124,color:#ffffff
+    classDef stop fill:#fff5f6,stroke:#c9636f,color:#202124
+    class A,B,C,D step
+    class E gate
+    class F done
+    class G stop
+```
+
+두 색인이 모두 준비된 뒤에만 해당 제공처가 검색 가능해집니다.
+수집·색인에 실패하면 기존 공개 카탈로그를 유지하고 다음 스케줄에서 재시도합니다.
 
 
 ## 🖥️화면설계 (간단하게) **UI 시안/UX Flow**
