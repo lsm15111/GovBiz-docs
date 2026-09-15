@@ -262,12 +262,12 @@ flowchart LR
 
 | 목적 | 문서 |
 |---|---|
-| 서비스·정책 |  |
-| 설계·계약 |  |
-| 평가 계획·결과 |  |
-| 개발·배포 |  |
-| 개인정보 운영 |  |
-| 변경 이력·협업 |  |
+| 서비스·정책 | ※ 프로젝트 개요, ※ MVP 범위, ※ 안전·적응 정책 — 현재 없음 (신규 작성 필요) |
+| 설계·계약 | [아키텍처 README](../docs/architecture/README.md) · [서비스 호출·데이터 흐름](../docs/architecture.md) · [기술 스택·데이터 구성](../docs/technology.md) · [지원사업 검색 API 계약](../docs/support-program-search-contract.md) · [계정·인증 계약](../docs/account-auth-contract.md) · [SampleItem 계약 예시](../docs/sample-item-contract.md) |
+| 평가 계획·결과 | [검색 평가 도구](../evaluation/support-program-search/README.md) · [실데이터 평가 결과](../evaluation/support-program-search/runs/support-program-catalog-20260906-v1/README.md) · [Elasticsearch 비교 실험](../evaluation/support-program-search/elasticsearch/README.md) · [RAG 감사·답변 평가](../evaluation/support-program-evidence/README.md) · [중복 검토 근거·사례](../evaluation/combination-review/README.md) · [판정·리뷰 도구](../evaluation/support-program-search/review/README.md) |
+| 개발·배포 | [Compose 실행·검증](../infrastructure/README.md) · [Frontend 개발](../frontend/README.md) · [Core API 개발](../backend/core-api/README.md) · [AI Service 개발](../backend/ai-service/README.md) · [커스터마이징 가이드](../docs/customization-guide.md) |
+| 개인정보 운영 | [RabbitMQ 카카오 연결 해제](../docs/rabbitmq-account-oauth-unlink.md) — 현재 유일한 개인정보 처리 문서. ※ "계정 삭제 절차" 단독 문서는 없음 |
+| 변경 이력·협업 | [기획 정합성·개발 백로그](../docs/development-strategy-20260907.md) · [기획 정합성 리뷰](../docs/project-review-20260907.md) · [구현 현황](../docs/implementation-status.md) — ※ ADR 목록·협업 가이드는 없음 |
 
 
    
