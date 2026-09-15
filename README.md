@@ -2,7 +2,7 @@
 
 ## 목차
 
-1. [팀 소개](# 1. 팀 소개)
+1. [팀 소개](#1-팀-소개)
 2. [프로젝트 개요](#프로젝트-개요)
 3. [핵심 기능](#핵심-기능)
 4. [기술 스택](#기술-스택)
@@ -11,10 +11,13 @@
 7. [데이터 설계](#데이터-설계)
 8. [배포 정보 및 실행 방법](#배포-정보-및-실행-방법)
 
+<br>
+<br>
+<br>
 
-# 1. 팀 소개
+## 1. 팀 소개
 
-## 👥 팀원 소개
+### 👥 팀원 소개
 
 <table>
   <tr>
@@ -105,12 +108,7 @@
 <br>
 
 
-## 프로젝트 개요(차별화 전략)
-정부지원사업 검색부터 신청 준비와 기업 간 협업까지 돕는 AI 웹 서비스입니다.
-기업마당·K-Startup 등 공식 공고를 기반으로 지원사업 추천, 원문 근거 확인, 신청 정보 정리와 협업 모집·제안을 지원합니다.
-<br>
-<br>
-<br>
+
 ## 프로젝트 개요
 
 GovBiz는 정부지원사업을 찾는 것에서 끝나지 않고, 기업에 맞는 공고를 탐색하고 신청 준비와 협업까지 이어지도록 돕는 AI 기반 지원사업 플랫폼입니다.
@@ -148,7 +146,8 @@ GovBiz는 정부지원사업을 찾는 것에서 끝나지 않고, 기업에 맞
 <br>
 <br>
 <br>
-## 🛠️ 기술 스택 --------------------
+
+## 🛠️ 기술 스택
 
 ### Frontend
 
@@ -190,7 +189,8 @@ GovBiz는 정부지원사업을 찾는 것에서 끝나지 않고, 기업에 맞
 <br>
 <br>
 <br>
-
+<details>
+<summary>다른 양식 (클릭)</summary>
 ## 🛠 기술스택
 
 ### Frontend
@@ -262,7 +262,8 @@ Qdrant 1.17.1 (의미 검색 벡터)
 <br>
 
 
-## 🛠 기술스택
+
+##🛠기술스택
 
 | 구분 | 기술 |
 |---|---|
@@ -271,6 +272,7 @@ Qdrant 1.17.1 (의미 검색 벡터)
 | **AI Service** | <img src="https://img.shields.io/badge/python-%233670A0.svg?style=for-the-badge&logo=python&logoColor=ffdd54" height="20"/> <img src="https://img.shields.io/badge/fastapi-%23009688.svg?style=for-the-badge&logo=fastapi&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/openai-%23412991.svg?style=for-the-badge&logo=openai&logoColor=white" height="20"/><br/>Agents SDK 0.22.x · tiktoken |
 | **데이터·인프라** | <img src="https://img.shields.io/badge/mysql-%234479A1.svg?style=for-the-badge&logo=mysql&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/elasticsearch-%23005571.svg?style=for-the-badge&logo=elasticsearch&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/redis-%23DD0031.svg?style=for-the-badge&logo=redis&logoColor=white" height="20"/> <img src="https://img.shields.io/badge/rabbitmq-%23FF6600.svg?style=for-the-badge&logo=rabbitmq&logoColor=white" height="20"/><br/>Qdrant 1.17.1 (의미 검색 벡터) |
 | **외부 API** | 공공데이터포털 기업마당 API · Bizno 사업자등록번호 조회 API · OpenAI (gpt-5.6-luna · 랭킹 gpt-5.6-sol · 임베딩 text-embedding-3-small) |
+</details>
 
 <br>
 <br>
