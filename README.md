@@ -239,8 +239,23 @@ flowchart TD
 | 개발·배포 | [Compose 실행·검증](../infrastructure/README.md) · [Frontend 개발](../frontend/README.md) · [Core API 개발](../backend/core-api/README.md) · [AI Service 개발](../backend/ai-service/README.md) · [커스터마이징 가이드](../docs/customization-guide.md) |
 | 개인정보 운영 | [RabbitMQ 카카오 연결 해제](../docs/rabbitmq-account-oauth-unlink.md) — 현재 유일한 개인정보 처리 문서. ※ "계정 삭제 절차" 단독 문서는 없음 |
 | 변경 이력·협업 | [기획 정합성·개발 백로그](../docs/development-strategy-20260907.md) · [기획 정합성 리뷰](../docs/project-review-20260907.md) · [구현 현황](../docs/implementation-status.md) — ※ ADR 목록·협업 가이드는 없음 |
-
+<br>
+<br>
 
    
-## 한 줄 회고
+## 💬 한 줄 회고
 
+**김건우**
+> 한 줄 회고를 입력해주세요.
+
+**김동섭**
+> 한 줄 회고를 입력해주세요.
+
+**송승재**
+> 한 줄 회고를 입력해주세요.
+
+**이성민**
+> 한 줄 회고를 입력해주세요.
+
+**홍지윤**
+> 한 줄 회고를 입력해주세요.
