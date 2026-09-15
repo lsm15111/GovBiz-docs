@@ -4,80 +4,57 @@
 ## 1. 팀 소개
 
 ### 👥 팀원 소개
-
 <table>
   <tr>
     <td align="center">
+      <img src="https://github.com/ilil1.png" width="100" height="100"/><br>
+      <b>김건우(팀장)</b><br>
+      <code>infra</code> <code>ai</code><br>
+      담당 업무 한 줄 설명<br>
       <a href="https://github.com/ilil1">
-        <img src="https://github.com/ilil1.png" width="120" height="120" style="border-radius:50%;"/>
+        <img src="https://img.shields.io/badge/GitHub-ilil1-181717?style=flat&logo=github"/>
       </a>
     </td>
     <td align="center">
+      <img src="https://github.com/kimdongseop.png" width="100" height="100"/><br>
+      <b>김동섭</b><br>
+      <code>ai</code> <code>data</code><br>
+      담당 업무 한 줄 설명<br>
       <a href="https://github.com/kimdongseop">
-        <img src="https://github.com/kimdongseop.png" width="120" height="120" style="border-radius:50%;"/>
+        <img src="https://img.shields.io/badge/GitHub-kimdongseop-181717?style=flat&logo=github"/>
       </a>
     </td>
     <td align="center">
+      <img src="https://github.com/sungmin.png" width="100" height="100"/><br>
+      <b>이성민</b><br>
+      <code>frontend</code><br>
+      담당 업무 한 줄 설명<br>
       <a href="https://github.com/sungmin">
-        <img src="https://github.com/sungmin.png" width="120" height="120" style="border-radius:50%;"/>
+        <img src="https://img.shields.io/badge/GitHub-sungmin-181717?style=flat&logo=github"/>
       </a>
     </td>
     <td align="center">
+      <img src="https://github.com/Genus-Jae.png" width="100" height="100"/><br>
+      <b>송승재</b><br>
+      <code>backend</code> <code>ai</code><br>
+      담당 업무 한 줄 설명<br>
       <a href="https://github.com/Genus-Jae">
-        <img src="https://github.com/Genus-Jae.png" width="120" height="120" style="border-radius:50%;"/>
+        <img src="https://img.shields.io/badge/GitHub-Genus--Jae-181717?style=flat&logo=github"/>
+      </a>
+    </td>
       </a>
     </td>
     <td align="center">
+      <img src="https://github.com/JiYoon241111.png" width="100" height="100"/><br>
+      <b>홍지윤</b><br>
+      <code>backend</code> <code>ai</code><br>
+      담당 업무 한 줄 설명<br>
       <a href="https://github.com/JiYoon241111">
-        <img src="https://github.com/JiYoon241111.png" width="120" height="120" style="border-radius:50%;"/>
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td align="center"><b>김건우</b></td>
-    <td align="center"><b>김동섭</b></td>
-    <td align="center"><b>이성민</b></td>
-    <td align="center"><b>송승재</b></td>
-    <td align="center"><b>홍지윤</b></td>
-  </tr>
-  <tr>
-    <td align="center">역할 입력</td>
-    <td align="center">역할 입력</td>
-    <td align="center">역할 입력</td>
-    <td align="center">역할 입력</td>
-    <td align="center">역할 입력</td>
-  </tr>
-  <tr>
-    <td align="center">
-      <a href="https://github.com/ilil1">
-        <img src="https://img.shields.io/badge/ilil1-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/kimdongseop">
-        <img src="https://img.shields.io/badge/kimdongseop-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/sungmin">
-        <img src="https://img.shields.io/badge/sungmin-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/Genus-Jae">
-        <img src="https://img.shields.io/badge/Genus%20Jae-181717?style=for-the-badge&logo=github&logoColor=white"/>
-      </a>
-    </td>
-    <td align="center">
-      <a href="https://github.com/JiYoon241111">
-        <img src="https://img.shields.io/badge/JiYoon241111-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/GitHub-JiYoon241111-181717?style=flat&logo=github"/>
       </a>
     </td>
   </tr>
 </table>
-
-<br><br>
-
 
 ## 프로젝트 개요
 
