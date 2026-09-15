@@ -215,6 +215,57 @@ flowchart TD
 <br>
 <br>
 
+# 6. 폴더 구조
+
+```bash
+SKN34-3rd-1Team/
+├── frontend/                       # React·TypeScript 기반 사용자 웹 애플리케이션
+│   ├── src/                        # 화면, 컴포넌트, 상태 관리 및 API 연동 코드
+│   ├── scripts/                    # 프론트엔드 실행·검증 보조 스크립트
+│   └── package.json                # 의존성 및 실행 명령 설정
+│
+├── backend/
+│   ├── core-api/                   # Kotlin·Spring Boot 기반 핵심 API 서버
+│   │   ├── src/                    # 도메인, 서비스, API 및 MyBatis 코드
+│   │   ├── gradle/                 # Gradle Wrapper 구성
+│   │   └── build.gradle            # Core API 빌드 및 의존성 설정
+│   │
+│   └── ai-service/                 # Python·FastAPI 기반 AI 서비스
+│       ├── app/                    # 검색, 추천, 문서 분석 및 AI 처리 코드
+│       ├── tests/                  # AI Service 테스트
+│       ├── docs/                   # AI Service 관련 문서
+│       └── pyproject.toml           # Python 의존성 및 실행 환경 설정
+│
+├── evaluation/                     # 검색·근거 응답·중복 검토 성능 평가
+│   ├── assistant/                  # AI 도우미 응답 평가
+│   ├── combination-review/         # 중복 지원·수혜 검토 평가
+│   ├── support-program-evidence/   # 공식 원문 근거 응답 평가
+│   └── support-program-search/     # 지원사업 검색 성능 평가
+│
+├── infrastructure/                 # 로컬 및 운영 인프라 구성
+│   ├── codebuild/                  # AWS CodeBuild 관련 설정
+│   ├── elasticsearch/              # Elasticsearch 설정
+│   ├── nginx/                      # Nginx 프록시 설정
+│   ├── scripts/                    # 배포·실행 보조 스크립트
+│   ├── seed/                       # 초기 데이터 구성
+│   ├── stubs/                      # 로컬 개발용 외부 서비스 대역
+│   ├── compose.yaml                # 로컬 Docker Compose 실행 설정
+│   └── compose.prod.yaml           # 운영 환경 Docker Compose 설정
+│
+├── docs/                           # 아키텍처, 기능 설계 및 프로젝트 문서
+│   ├── architecture/               # 세부 아키텍처 문서
+│   ├── assets/                     # README 및 문서용 이미지
+│   ├── architecture.md             # 전체 시스템 구조 설명
+│   ├── implementation-status.md    # 기능별 구현 및 검증 현황
+│   └── technology.md               # 기술 스택과 적용 범위
+│
+├── .github/
+│   └── workflows/                  # GitHub Actions 기반 CI 워크플로
+│
+├── .env.example                    # 환경변수 작성 예시
+├── AGENTS.md                       # 저장소 개발 및 검증 규칙
+└── README.md                       # 프로젝트 소개와 실행 안내
+
 ## 7. 주요 기능
 
 | 기능 | 설명 |
