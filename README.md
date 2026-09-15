@@ -228,6 +228,33 @@ GovBiz는 지원사업을 추천하는 데서 끝나지 않습니다. 관심 공
 | 중복 지원·수혜 검토 | 복수 사업의 공식 자료와 지원 이력을 비교하여 제한 및 확인 필요 사항 안내 |
 | 파트너 관리 | 공고별 협업 기업 모집과 참여 제안·수락·거절·철회 기능 제공 |
 
+## 📌 서비스 구성 및 운영 흐름
+
+GovBiz는 Vercel과 AWS 환경에 배포할 수 있도록 프론트엔드, Core API, AI Service, 데이터 저장소를 분리하여 구성했습니다.
+
+1. 사용자는 웹 브라우저를 통해 Vercel에 배포되는 React 프론트엔드에 접속합니다.
+2. 프론트엔드의 `/api` 요청은 CloudFront를 거쳐 VPC 내부의 Nginx로 전달됩니다.
+3. Nginx는 요청을 Spring Boot 기반 Core API로 프록시합니다.
+4. Core API는 계정, 공고 검색, 관심 공고, 신청 관리 등 주요 업무를 처리합니다.
+5. 대화 검색과 공고 분석이 필요한 요청은 FastAPI 기반 AI Service로 전달합니다.
+6. 공고와 사용자 데이터는 Amazon RDS MySQL에 저장합니다.
+7. Elasticsearch와 Qdrant는 키워드·의미 기반 검색에, Redis와 RabbitMQ는 상태 관리와 비동기 작업 처리에 활용합니다.
+8. 공고 데이터는 공공데이터포털 Open API에서 수집하며, AI 기능은 OpenAI API와 연동합니다.
+
+## 📌 배포 흐름
+
+- GitHub에 코드가 반영되면 GitHub Actions가 프론트엔드, Core API, AI Service의 테스트와 빌드를 검증합니다.
+- 백엔드 Docker 이미지는 OIDC 인증을 통해 Amazon ECR에 저장합니다.
+- AWS Systems Manager가 EC2에 배포 명령을 전달하면 최신 이미지를 내려받아 Docker Compose 서비스를 실행합니다.
+- 프론트엔드는 GitHub와 연동된 Vercel에서 별도로 빌드·배포합니다.
+- 외부 요청은 CloudFront를 통해 전달하고, EC2와 RDS는 VPC 내부 네트워크에 배치합니다.
+
+## 📌 로컬 개발 환경
+
+- Docker Compose를 이용해 Nginx, Spring Boot, FastAPI, MySQL, Elasticsearch, Qdrant, Redis, RabbitMQ를 함께 실행합니다.
+- 팀원은 동일한 컨테이너 구성으로 공고 수집부터 검색, AI 분석, 비동기 작업까지 전체 서비스 흐름을 재현할 수 있습니다.
+- 로컬 환경과 배포 환경은 환경변수로 외부 API, 데이터베이스 및 서비스 연결 정보를 구분합니다.
+
 <br>
 <br>
 
