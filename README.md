@@ -78,7 +78,7 @@
     </td>
     <td align="center">
       <a href="https://github.com/Genus-Jae">
-        <img src="https://img.shields.io/badge/Genus-Jae-181717?style=for-the-badge&logo=github&logoColor=white"/>
+        <img src="https://img.shields.io/badge/Genus%20Jae-181717?style=for-the-badge&logo=github&logoColor=white"/>
       </a>
     </td>
     <td align="center">
