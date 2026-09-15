@@ -228,6 +228,17 @@ GovBiz는 지원사업을 추천하는 데서 끝나지 않습니다. 관심 공
 | 중복 지원·수혜 검토 | 복수 사업의 공식 자료와 지원 이력을 비교하여 제한 및 확인 필요 사항 안내 |
 | 파트너 관리 | 공고별 협업 기업 모집과 참여 제안·수락·거절·철회 기능 제공 |
 
+## 📌 시스템 아키텍처
+
+<p align="center">
+  <a href="./docs/assets/architecture/govbiz-aws-architecture.png">
+    <img
+      src="./docs/assets/architecture/govbiz-aws-architecture.png"
+      alt="GovBiz 시스템 아키텍처"
+      width="100%"
+    />
+  </a>
+</p>
 
 ## 📌 서비스 구성 및 운영 흐름
 
