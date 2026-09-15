@@ -49,8 +49,8 @@
   <tr>
     <td align="center"><b>김건우</b></td>
     <td align="center"><b>김동섭</b></td>
-    <td align="center"><b>송승재</b></td>
     <td align="center"><b>이성민</b></td>
+    <td align="center"><b>송승재</b></td>
     <td align="center"><b>홍지윤</b></td>
   </tr>
   <tr>
