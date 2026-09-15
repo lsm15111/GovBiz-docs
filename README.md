@@ -222,13 +222,11 @@ flowchart TD
 ### 서비스 이용 흐름
 
 > 지원사업 탐색 → 근거 및 자격 확인 → 관심 공고 저장 → 신청 준비·진행 관리 → 중복 검토·파트너 협업
+<br>
+<br>
 
 ## 🖥️화면설계 | **UI 시안/UX Flow**
-
-
-
-<br>
-<br>
+<img width="1970" height="1464" alt="화면흐름도(HOME)" src="https://github.com/user-attachments/assets/8d68144f-b4dc-4906-8e7c-6832f707f824" />
 <br>
 
 ## 주요 문서
