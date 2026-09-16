@@ -386,16 +386,17 @@ GovBiz/
 <br>
 
 ## 12.주요 문서
+
 | 분류 | 문서 | 내용 |
 |---|---|---|
-| 시스템 | [시스템 아키텍처](docs/architecture/README.md) | 전체 시스템 구성과 서비스 간 연결 구조 |
-| 기술 | [기술 구성](docs/technology.md) | 기술 스택과 주요 구현 방식 |
-| 구현 | [구현 현황](docs/implementation-status.md) | 기능별 구현·검증 상태 |
-| 검색 | [지원사업 검색 설계](docs/support-program-search-contract.md) | AI 검색 흐름과 공고 데이터 계약 |
-| 신청 | [신청 준비 설계](docs/application-preparation-design.md) | 신청 양식 분석과 문서 작성 과정 |
-| 검토 | [중복 지원·수혜 검토](docs/duplicate-support-review-design.md) | 복수 사업 비교 및 제한 검토 구조 |
-| 배포 | [AWS·Vercel 배포](docs/deployment-aws-vercel.md) | 배포 아키텍처와 운영 절차 |
-| 기획 | [프로젝트 사업계획서](docs/govbiz-business-plan-v3.pdf) | 서비스 기획과 비즈니스 모델 |
+| 시스템 | [시스템 아키텍처](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/architecture/README.md) | 전체 시스템 구성과 서비스 간 연결 구조 |
+| 기술 | [기술 구성](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/technology.md) | 기술 스택과 주요 구현 방식 |
+| 구현 | [구현 현황](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/implementation-status.md) | 기능별 구현·검증 상태 |
+| 검색 | [지원사업 검색 설계](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/support-program-search-contract.md) | AI 검색 흐름과 공고 데이터 계약 |
+| 신청 | [신청 준비 설계](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/application-preparation-design.md) | 신청 양식 분석과 문서 작성 과정 |
+| 검토 | [중복 지원·수혜 검토](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/duplicate-support-review-design.md) | 복수 사업 비교 및 제한 검토 구조 |
+| 배포 | [AWS·Vercel 배포](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/deployment-aws-vercel.md) | 배포 아키텍처와 운영 절차 |
+| 기획 | [프로젝트 사업계획서](https://github.com/SKNETWORKS-FAMILY-AICAMP/SKN34-3rd-1Team/blob/main/docs/govbiz-business-plan-v3.pdf) | 서비스 기획과 비즈니스 모델 |
 <br>
 <br>
 
