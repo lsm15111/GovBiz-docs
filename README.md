@@ -316,9 +316,9 @@ Elasticsearch의 키워드 검색 결과와 Qdrant의 의미 기반 검색 결�
 <br>
 <br>
 
-## 7. 인덱싱 단계
+## 7. 공고 인덱싱 과정
 ### 공고 인덱싱 단계
-<img width="1200" height="393" alt="260915_인덱싱단계" src="https://github.com/user-attachments/assets/9581520a-0bee-4536-9bbc-9f25ddabf6ff" />
+<img width="1200" height="393" alt="260915_인덱싱단계" src="./indexing.png" />
 <br>
 <br>
 
