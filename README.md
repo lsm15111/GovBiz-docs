@@ -308,8 +308,10 @@ Elasticsearch의 키워드 검색 결과와 Qdrant의 의미 기반 검색 결�
 - 신청 문서의 항목과 첨부 양식 분석
 - 중복 지원·수혜 제한 가능성 검토
 - 지원사업별 협업 파트너 모집 및 제안
+<br>
+<br>
 
-## 6. 인덱싱 단계
+## 7. 인덱싱 단계
 ### 공고 인덱싱 단계
 <img width="1200" height="393" alt="260915_인덱싱단계" src="https://github.com/user-attachments/assets/9581520a-0bee-4536-9bbc-9f25ddabf6ff" />
 <br>
