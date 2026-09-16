@@ -211,6 +211,16 @@ AI가 생성한 답변만 제공하지 않고, 추천 이유와 신청 조건을
 | 중복 지원·수혜 검토 | 복수 사업의 공식 자료와 지원 이력을 비교하여 제한 및 확인 필요 사항 안내 |
 | 파트너 관리 | 공고별 협업 기업 모집과 참여 제안·수락·거절·철회 기능 제공 |
 
+## 5. 시스템 아키텍처
+
+<p align="center">
+  <img
+    src="docs/assets/architecture/govbiz-aws-architecture.png"
+    alt="GovBiz 시스템 아키텍처"
+    width="100%"
+  />
+</p>
+
 ## 📌 서비스 구성 및 운영 흐름
 
 GovBiz는 Vercel과 AWS 환경에 배포할 수 있도록 프론트엔드, Core API, AI Service, 데이터 저장소를 분리하여 구성했습니다.
