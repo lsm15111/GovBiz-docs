@@ -215,7 +215,7 @@ AI가 생성한 답변만 제공하지 않고, 추천 이유와 신청 조건을
 
 <p align="center">
   <img
-    src="docs/assets/architecture/govbiz-aws-architecture.png"
+    src="./architecture.png"
     alt="GovBiz 시스템 아키텍처"
     width="100%"
   />
