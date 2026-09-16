@@ -222,7 +222,7 @@ AI가 생성한 답변만 제공하지 않고, 추천 이유와 신청 조건을
 
 <p align="center">
   <img
-    src="./architecture.png"
+    src="docs/image/architecture.png"
     alt="GovBiz 시스템 아키텍처"
     width="100%"
   />
@@ -318,7 +318,7 @@ Elasticsearch의 키워드 검색 결과와 Qdrant의 의미 기반 검색 결�
 
 ## 7. 공고 인덱싱 과정
 ### 공고 인덱싱 단계
-<img width="1200" height="393" alt="260915_인덱싱단계" src="./indexing.png" />
+<img width="1200" height="393" alt="260915_인덱싱단계" src="docs/image/indexing.png" />
 <br>
 <br>
 
