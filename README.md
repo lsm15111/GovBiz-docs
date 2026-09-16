@@ -327,40 +327,6 @@ Elasticsearch의 키워드 검색 결과와 Qdrant의 의미 기반 검색 결�
 <br>
 <br>
 
-## 9. 폴더 구조
-### 프로젝트 폴더 구조
-
-```bash
-GovBiz/
-├── backend/
-│   ├── core-api/          # Kotlin·Spring Boot 기반 핵심 비즈니스 API
-│   └── ai-service/        # Python·FastAPI 기반 AI 검색·분석 서비스
-├── frontend/              # React·TypeScript 기반 사용자 웹 애플리케이션
-├── evaluation/
-│   ├── assistant/         # AI 어시스턴트 기능 평가
-│   ├── combination-review/# 중복 지원·수혜 검토 평가
-│   ├── support-program-evidence/ # 공고 근거 답변 평가
-│   └── support-program-search/   # 지원사업 검색 품질·성능 평가
-├── infrastructure/
-│   ├── codebuild/         # AWS CodeBuild 빌드 설정
-│   ├── document-mcp/      # 신청 문서 생성을 위한 Document MCP 구성
-│   ├── elasticsearch/     # Elasticsearch 검색 환경 설정
-│   ├── nginx/             # API 프록시 설정
-│   ├── scripts/           # 실행·검증·데이터 초기화 스크립트
-│   ├── seed/              # 로컬 시연용 초기 데이터
-│   ├── stubs/             # 외부 공공데이터 API 테스트 서버
-│   ├── compose.yaml       # 로컬 Docker Compose 실행 설정
-│   └── compose.prod.yaml  # 배포 환경 Docker Compose 설정
-├── docs/
-│   ├── architecture/      # 시스템 구조 관련 문서
-│   ├── assets/            # 아키텍처·인덱싱 이미지 등 문서 리소스
-│   └── *.md               # 기능 설계·API 계약·성능 평가 문서
-├── .github/               # GitHub Actions CI 설정
-├── .env.example           # 로컬 실행 환경변수 예시
-└── README.md              # 프로젝트 소개 및 실행 안내
-<br>
-<br>
-
 ## 10. 주요 문서
 
 | 목적 | 문서 |
