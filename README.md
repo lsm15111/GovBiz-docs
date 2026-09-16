@@ -389,10 +389,12 @@ GovBiz/
 | 검토 | [중복 지원·수혜 검토](docs/duplicate-support-review-design.md) | 복수 사업 비교 및 제한 검토 구조 |
 | 배포 | [AWS·Vercel 배포](docs/deployment-aws-vercel.md) | 배포 아키텍처와 운영 절차 |
 | 기획 | [프로젝트 사업계획서](docs/govbiz-business-plan-v3.pdf) | 서비스 기획과 비즈니스 모델 |
+<br>
+<br>
 
-<br />
-# 13. 수행결과
-<br />
+## 13. 수행 결과
+<br>
+<br>
 
 ## 11. 한 줄 회고
 
