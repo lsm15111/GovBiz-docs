@@ -329,7 +329,6 @@ Elasticsearch의 키워드 검색 결과와 Qdrant의 의미 기반 검색 결�
 
 ## 9. 프로젝트 폴더 구조
 
-```bash
 GovBiz/
 ├── backend/
 │   ├── core-api/          # Kotlin·Spring Boot 기반 핵심 비즈니스 API
@@ -374,7 +373,7 @@ GovBiz/
 <br>
 
    
-## 10. 한 줄 회고
+## 11. 한 줄 회고
 
 **김건우**
 > 한 줄 회고를 입력해주세요.
