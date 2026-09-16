@@ -390,8 +390,10 @@ GovBiz/
 | 배포 | [AWS·Vercel 배포](docs/deployment-aws-vercel.md) | 배포 아키텍처와 운영 절차 |
 | 기획 | [프로젝트 사업계획서](docs/govbiz-business-plan-v3.pdf) | 서비스 기획과 비즈니스 모델 |
 
+<br />
 # 13. 수행결과
-   
+<br />
+
 ## 11. 한 줄 회고
 
 **김건우**
