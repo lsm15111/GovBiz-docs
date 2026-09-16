@@ -1,3 +1,4 @@
+
 # GovBiz-docs
 
 
@@ -260,7 +261,7 @@ GovBiz는 Vercel과 AWS 환경에 배포할 수 있도록 프론트엔드, Core 
 
 ## 6. ERD
 
-![Uploading 260916_ERD.png…]()
+<img width="1481" height="3235" alt="260916_ERD" src="https://github.com/user-attachments/assets/5b16e0de-a14f-428f-a8ef-44e62fcee3de" />
 
 <br>
 <br>
