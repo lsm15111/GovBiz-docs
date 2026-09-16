@@ -386,10 +386,9 @@ GovBiz/
 <br>
 
 ## 12.주요 문서
-
 | 분류 | 문서 | 내용 |
-| --- | --- | --- |
-| 시스템 | [시스템 아키텍처](docs/architecture.md) | 전체 시스템 구성과 서비스 간 연결 구조 |
+|---|---|---|
+| 시스템 | [시스템 아키텍처](docs/architecture/README.md) | 전체 시스템 구성과 서비스 간 연결 구조 |
 | 기술 | [기술 구성](docs/technology.md) | 기술 스택과 주요 구현 방식 |
 | 구현 | [구현 현황](docs/implementation-status.md) | 기능별 구현·검증 상태 |
 | 검색 | [지원사업 검색 설계](docs/support-program-search-contract.md) | AI 검색 흐름과 공고 데이터 계약 |
