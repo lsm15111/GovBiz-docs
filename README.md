@@ -9,8 +9,6 @@
     <td align="center">
       <img src="https://github.com/ilil1.png" width="100" height="100"/><br>
       <b>김건우(팀장)</b><br>
-      <code>infra</code> <code>ai</code><br>
-      담당 업무 한 줄 설명<br>
       <a href="https://github.com/ilil1">
         <img src="https://img.shields.io/badge/GitHub-ilil1-181717?style=flat&logo=github"/>
       </a>
@@ -18,8 +16,6 @@
     <td align="center">
       <img src="https://github.com/kimdongseop.png" width="100" height="100"/><br>
       <b>김동섭</b><br>
-      <code>ai</code> <code>data</code><br>
-      담당 업무 한 줄 설명<br>
       <a href="https://github.com/kimdongseop">
         <img src="https://img.shields.io/badge/GitHub-kimdongseop-181717?style=flat&logo=github"/>
       </a>
@@ -27,8 +23,6 @@
     <td align="center">
       <img src="https://github.com/sungmin.png" width="100" height="100"/><br>
       <b>이성민</b><br>
-      <code>frontend</code><br>
-      담당 업무 한 줄 설명<br>
       <a href="https://github.com/sungmin">
         <img src="https://img.shields.io/badge/GitHub-sungmin-181717?style=flat&logo=github"/>
       </a>
@@ -36,8 +30,6 @@
     <td align="center">
       <img src="https://github.com/Genus-Jae.png" width="100" height="100"/><br>
       <b>송승재</b><br>
-      <code>backend</code> <code>ai</code><br>
-      담당 업무 한 줄 설명<br>
       <a href="https://github.com/Genus-Jae">
         <img src="https://img.shields.io/badge/GitHub-Genus--Jae-181717?style=flat&logo=github"/>
       </a>
@@ -47,8 +39,6 @@
     <td align="center">
       <img src="https://github.com/JiYoon241111.png" width="100" height="100"/><br>
       <b>홍지윤</b><br>
-      <code>backend</code> <code>ai</code><br>
-      담당 업무 한 줄 설명<br>
       <a href="https://github.com/JiYoon241111">
         <img src="https://img.shields.io/badge/GitHub-JiYoon241111-181717?style=flat&logo=github"/>
       </a>
